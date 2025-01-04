@@ -1,0 +1,1 @@
+{"name":"Local: B - Rally","url":"d:\\Projects\\Atcoder\\Competition 15\\B - Rally.cpp","tests":[{"id":1678729051155,"input":"2\n1 4","output":""},{"id":1678729214654,"input":"7\n14 14 2 13 56 2 37","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Projects\\Atcoder\\Competition 15\\B - Rally.cpp","group":"local","local":true}

@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "random": "cpp",
+        "sstream": "cpp",
+        "ctime": "cpp",
+        "stack": "cpp",
+        "chrono": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "limits": "cpp"
+    }
+}

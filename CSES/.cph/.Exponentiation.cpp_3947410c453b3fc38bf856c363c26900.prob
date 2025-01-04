@@ -1,0 +1,1 @@
+{"name":"Local: Exponentiation","url":"/home/owaisk4/Win_backup/Speed Programming/CSES/Exponentiation.cpp","tests":[{"id":1715860028370,"input":"3\n3 4\n2 8\n123 123","output":"81\n256\n921450052"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/owaisk4/Win_backup/Speed Programming/CSES/Exponentiation.cpp","group":"local","local":true}

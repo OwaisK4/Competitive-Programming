@@ -1,0 +1,1 @@
+{"name":"Local: E - Weak Takahashi","url":"d:\\Projects\\Atcoder\\E - Weak Takahashi.cpp","tests":[{"id":1675100955302,"input":"3 4\n.#..\n..#.\n..##","output":"4"},{"id":1675102358710,"input":"1 1\n.","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Projects\\Atcoder\\E - Weak Takahashi.cpp","group":"local","local":true}

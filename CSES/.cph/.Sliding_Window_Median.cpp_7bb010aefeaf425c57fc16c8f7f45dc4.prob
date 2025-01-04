@@ -1,0 +1,1 @@
+{"name":"Local: Sliding_Window_Median","url":"/home/owaisk4/Win_backup/Speed Programming/CSES/Sliding_Window_Median.cpp","tests":[{"id":1715359075255,"input":"8 3\n2 4 3 5 8 1 2 1","output":"3 4 5 5 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/owaisk4/Win_backup/Speed Programming/CSES/Sliding_Window_Median.cpp","group":"local","local":true}

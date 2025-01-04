@@ -1,0 +1,1 @@
+{"name":"Local: wargames","url":"/home/owaisk4/Win_backup/Speed Programming/IEEE Extreme 2023/wargames.py","tests":[{"id":1698483606403,"input":"3\nK T 3\n2 J 5 J\nT A T\nT T J\nK K A\nK K K","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/owaisk4/Win_backup/Speed Programming/IEEE Extreme 2023/wargames.py","group":"local","local":true}

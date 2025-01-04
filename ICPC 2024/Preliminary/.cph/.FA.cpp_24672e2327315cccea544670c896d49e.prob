@@ -1,0 +1,1 @@
+{"name":"Local: FA","url":"/home/owaisk4/Win_backup/Speed Programming/ICPC 2024/Preliminary/FA.cpp","tests":[{"id":1731830847331,"input":"2\n4\n10 20 30 40 50\n3\n5 10 3 12","output":"38000\n330"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/owaisk4/Win_backup/Speed Programming/ICPC 2024/Preliminary/FA.cpp","group":"local","local":true}

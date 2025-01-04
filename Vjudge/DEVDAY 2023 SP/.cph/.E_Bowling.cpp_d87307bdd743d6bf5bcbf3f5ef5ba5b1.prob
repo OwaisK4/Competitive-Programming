@@ -1,0 +1,1 @@
+{"name":"Local: E_Bowling","url":"d:\\KODIST\\E_Bowling.cpp","tests":[{"id":1683184802485,"input":"0101110101","output":""},{"id":1683184871170,"input":"0100101001","output":""},{"id":1683184895713,"input":"0000100110","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\KODIST\\E_Bowling.cpp","group":"local","local":true}

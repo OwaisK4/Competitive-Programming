@@ -1,0 +1,1 @@
+{"name":"Local: rumors","url":"/home/owaisk4/Win_backup/Speed Programming/IEEE Extreme 2023/rumors.cpp","tests":[{"id":1698518740228,"input":"4\nalice ?? bob\nbob -> chuck\nbob -> dev\ndev ?? eve","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/owaisk4/Win_backup/Speed Programming/IEEE Extreme 2023/rumors.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: D - Exchange","url":"d:\\Speed Programming\\Vjudge\\Competition 25\\D - Exchange.cpp","tests":[{"id":1681587523962,"input":"4\n100 25 30\n9999997 25 50\n52 50 48\n49 50 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Speed Programming\\Vjudge\\Competition 25\\D - Exchange.cpp","group":"local","local":true}

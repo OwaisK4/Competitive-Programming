@@ -1,0 +1,1 @@
+{"name":"Local: C - Tsundoku","url":"d:\\Projects\\Vjudge\\Competition 19\\C - Tsundoku.cpp","tests":[{"id":1679771725655,"input":"3 4 240\n60 90 120\n80 150 80 150","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Projects\\Vjudge\\Competition 19\\C - Tsundoku.cpp","group":"local","local":true}

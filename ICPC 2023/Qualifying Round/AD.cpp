@@ -32,29 +32,24 @@ map<int, int> mp;
 vi visited(N + 10);
 vi d(N + 10);
 
-void dijkstra(int s)
-{
+void dijkstra(int s) {
     visited.assign(N, 0);
     d.assign(N, 1e9);
     priority_queue<pii, vector<pii>, greater<pii>> pq;
     pq.push({0, s});
     d[s] = 0;
 
-    while (!pq.empty())
-    {
+    while (!pq.empty()) {
         pii node = pq.top();
         pq.pop();
         int distance = node.first;
         int index = node.second;
-        if (visited[index])
-        {
+        if (visited[index]) {
             continue;
         }
         visited[index] = 1;
-        for (auto it : adj[index])
-        {
-            if (d[index] + 1 < d[it])
-            {
+        for (auto it : adj[index]) {
+            if (d[index] + 1 < d[it]) {
                 d[it] = d[index] + 1;
                 pq.push({d[it], it});
             }
@@ -62,56 +57,46 @@ void dijkstra(int s)
     }
 
     map<int, int> temp;
-    forn(0, n + 1)
-    {
+    forn(0, n + 1) {
         temp[d[i]]++;
     }
     int maxi = -1;
-    for (auto it : temp)
-    {
-        if (it.first < 1e9)
-        {
+    for (auto it : temp) {
+        if (it.first < 1e9) {
             maxi = it.first;
         }
     }
     mp[maxi]++;
 }
-void solve()
-{
+void solve() {
     cin >> n;
     mp.clear();
-    forn(0, n + 1)
-    {
+    forn(0, n + 1) {
         adj[i].clear();
     }
-    forn(1, n)
-    {
+    forn(1, n) {
         int u, v;
         cin >> u >> v;
         adj[u].pb(v);
         adj[v].pb(u);
     }
 
-    forn(0, n)
-    {
+    forn(0, n) {
         dijkstra(i);
     }
 
-    for (auto it : mp)
-    {
+    for (auto it : mp) {
         cout << it.second;
         return;
     }
 }
-signed main()
-{
+signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
     int t = 1;
     cin >> t;
-    while (t--)
-    {
+    while (t--) {
         solve();
         nl;
     }

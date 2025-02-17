@@ -1,0 +1,3 @@
+[submodule "ICPC 2024/TRD/acm-icpc-trd"]
+	path = ICPC 2024/TRD/acm-icpc-trd
+	url = git@github.com:OwaisK4/TRD.git

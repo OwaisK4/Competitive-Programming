@@ -1,0 +1,174 @@
+ee ee
+
+10
+
+sb)
+cE)
+aL
+ay
+16
+v7
+a}
+cr}
+20
+Pre
+py)
+PE}
+BL
+po}
+bls
+iE
+BL}
+29
+Bio}
+31
+32
+EE)
+Br
+35
+cia
+cya
+cy
+39
+40
+41
+42
+cE}
+
+oy
+46
+Ev
+eh
+49
+50
+cae
+52
+ee)
+cr
+Sy
+Sy
+OE
+cc}
+cc)
+60
+oe
+62
+63
+64
+(}
+66
+od
+ic)
+69
+79
+7
+ie
+73
+74
+ES
+
+ 
+
+Ea eee yesecte mes
+Chana aa LS
+
+Eterm am) [emi em 4
+
+Cha aera ea
+
+#define all(a) a.begin(), a.end()
+Cau aaa
+
+Ea aero)
+
+define vi vector<int>
+
+Sha AR cia Leta
+
+#idefine vvvi vector<vector<vector<int>>>
+Ea aan Toast ser ate
+
+define seed chrono: :high_resolution_clock::now().time_since_epoch() . count ()
+
+define file_read(filepath) freopen(filepath, "r”, stdin);
+
+ 
+
+#define file_write(filepath) freopen(filepath, stdout) ;
+pCa ea \
+jos::sync_with_stdio(false); \
+Canta 10°) iy AY
+
+cout.tie(®)
+Sen me TLL
+using namespace std;
+Ces ee heures
+
+Be ee ese Tue ee fT
+Cre CU ee bee CE ee Ta Le aD
+return os << '(' << p.first <<", " << p.second << ')';
+
+cars epee a gS
+void print(vector<T> &array, int size = numeric_limits<int>::max()) {
+
+for (int i = 0; 4 < min<int>(size, array.size()); i++) {
+cout << array[i] <<
+
+ 
+
+}
+ol eee ae
+Bi
+Deas Coe
+Soin aut am oO nnE
+cout << X << "\n";
+Bi
+template <typename T, typename... Ts>
+void print(T X, Ts... Y) {
+Cora tas ante
+print(Y...);
+
+ 
+
+void solve(){
+ain see os
+ieee
+int low =
+cee ra
+ieien te)
+ee hte
+aaa Rana
+
+ean ee Lee es
+
+((mid - 1) * (midy) / 2;
+
+ie ee
+
+if (mid * x >= sum){
+ee
+
+ 
+
+ 
+
+pUNea EI}
+
+pe}
+
+By
+Carag
+high = mid - 1;
+bi
+}
+mak
+
+signed main() ¢
+crate
+int t= 1;
+dt cin >> t;
+CK Gea 4
+solve();
+
+feat
+

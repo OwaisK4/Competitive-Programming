@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
-#define int long long
+#define int unsigned long long
 #define all(a) a.begin(), a.end()
 #define vi vector<int>
 #define seed chrono::high_resolution_clock::now().time_since_epoch().count()
@@ -35,13 +35,17 @@ void multiply(vector<vector<int>> &A, vector<vector<int>> &B, int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             for (int k = 0; k < n; k++) {
-                temp[i][j] += (A[i][k] * B[k][j]);
+                A[i][k] %= MOD;
+                B[k][j] %= MOD;
+                int value = (A[i][k] * B[k][j]);
+                temp[i][j] += (value);
+                temp[i][j] %= MOD;
             }
         }
     }
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            A[i][j] = temp[i][j];
+            A[i][j] = temp[i][j] % MOD;
         }
     }
 }
@@ -59,21 +63,26 @@ void matrixExponentiation(vector<vector<int>> &T, vector<vector<int>> &initial, 
         n >>= 1;
     }
     multiply(result, initial, result.size());
-    cout << "Nth fibonacci number: " << result[0][0] << "\n";
-    cout << "N-1th fibonacci number: " << result[1][0] << "\n\n";
+    print(result[0][0]);
+    // cout << "Nth fibonacci number: " << result[0][0] << "\n";
+    // cout << "N-1th fibonacci number: " << result[1][0] << "\n\n";
 }
 
 void solve() {
     int n;
     cin >> n;
+    if (n < 2) {
+        print(n);
+        return;
+    }
     vector<vector<int>> T = {{1, 1}, {1, 0}};
     vector<vector<int>> initial = {{1, 0}, {0, 0}};
-    for (int i = 1; i < n; i++) {
-        matrixExponentiation(T, initial, i - 1);
-        T = {{1, 1}, {1, 0}};
-        initial = {{1, 0}, {0, 0}};
-    }
-    // matrixExponentiation(T, initial, n - 1);
+    // for (int i = 1; i < n; i++) {
+    //     matrixExponentiation(T, initial, i - 1);
+    //     T = {{1, 1}, {1, 0}};
+    //     initial = {{1, 0}, {0, 0}};
+    // }
+    matrixExponentiation(T, initial, n - 1);
 }
 
 signed main() {

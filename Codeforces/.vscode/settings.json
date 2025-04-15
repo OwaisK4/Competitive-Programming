@@ -36,6 +36,7 @@
         "system_error": "cpp",
         "variant": "cpp",
         "iosfwd": "cpp",
-        "source_location": "cpp"
+        "source_location": "cpp",
+        "istream": "cpp"
     }
 }

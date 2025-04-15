@@ -1,0 +1,42 @@
+Owais:
+Range Queries / Lazy Propagation (Segment tree)
+Hamiltonian Path
+String Hashing / https://usaco.guide/gold/hashing?lang=cpp
+Python
+Binary Lifting / Lowest Common Ancestor
+Trees (DP, Rerooting)
+Broken Profile
+Strings (Hashing, Z-func, etc)
+Graph DP + Topo sort
+Dynamic Programming (Bitmask, Digit, LIS)
+Game Theory DP
+Binary Search
+UFDS
+Coordinate compression
+
+Left:
+Centroid Decompositon
+Convex Hull Trick
+Knuth's Optimization
+
+Gatta:
+Graphs
+Maximum Matching
+DFS, BFS, Shortest Path (Dijkstra, Bellman-Ford, Floyd-Warshall)
+Graph Matchings
+Reachability in a graph (Bridges, etc)
+Augmented Graphs
+SCC (Strongly Connected Components)
+Minimum Spanning Tree (Kruskal)
+Topological sort
+
+
+Avinash:
+// Inverse Mod
+Constructive
+Ad-hoc / Implementation
+Math
+Number theory (XOR, GCD, Modular Arithmetic, etc)
+Probabilities
+Greedy (sorting and searching)
+FFT, NTT

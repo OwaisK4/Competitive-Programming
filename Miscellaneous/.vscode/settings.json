@@ -18,6 +18,7 @@
         "chrono": "cpp",
         "random": "cpp",
         "limits": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "tuple": "cpp"
     }
 }
